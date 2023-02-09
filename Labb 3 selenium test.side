@@ -1,0 +1,295 @@
+{
+  "id": "a91b98ae-c8c7-4a63-80fc-216f7564a285",
+  "version": "2.0",
+  "name": "Labb 3",
+  "url": "https://ecutbildning.se",
+  "tests": [{
+    "id": "c856c77b-b113-4105-b15d-394c88a6365f",
+    "name": "Test 1",
+    "commands": [{
+      "id": "ce4e843e-1f35-4727-9e9a-a81740fa9843",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0b1447f5-1eb7-44ac-9bc0-16b68ca7bca0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7a5cc3bf-fcf4-4d2c-9389-7012f04abc03",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu-wrapper > div",
+      "targets": [
+        ["css=#menu-wrapper > div", "css:finder"],
+        ["xpath=//div[@id='menu-wrapper']/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "52a355fd-5287-4256-907d-37174f3a857b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.menu-item-19 > .site__links-1",
+      "targets": [
+        ["css=.menu-item-19 > .site__links-1", "css:finder"],
+        ["xpath=//a[contains(text(),'>> Utbildningar')]", "xpath:link"],
+        ["xpath=//ul[@id='ams_nav_menu']/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://ecutbildning.se/utbildningar/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "13708c1e-b161-4d6e-965d-62df48927ebd",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1829.5999755859375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "56d3784d-8384-4bd8-a183-dc11d6de429b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ams_utbildninger--entry:nth-child(9) .card-body",
+      "targets": [
+        ["css=.ams_utbildninger--entry:nth-child(9) .card-body", "css:finder"],
+        ["xpath=//div[@id='search-filter-results-37']/div/div[9]/a/div/div", "xpath:idRelative"],
+        ["xpath=//div[9]/a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "235d93b2-259a-4d04-9c5c-6b8f659e460a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.ams_utbildninger--entry:nth-child(9) .card-body",
+      "targets": [
+        ["css=.ams_utbildninger--entry:nth-child(9) .card-body", "css:finder"],
+        ["xpath=//div[@id='search-filter-results-37']/div/div[9]/a/div/div", "xpath:idRelative"],
+        ["xpath=//div[9]/a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5de4ea96-05db-423a-aa10-c10342a9daab",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ams_utbildninger--entry:nth-child(8) .ams_utbildninger--program-meta:nth-child(4)",
+      "targets": [
+        ["css=.ams_utbildninger--entry:nth-child(8) .ams_utbildninger--program-meta:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='search-filter-results-37']/div/div[8]/a/div/div/div/p[3]", "xpath:idRelative"],
+        ["xpath=//div[8]/a/div/div/div/p[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "440315de-6516-474d-b1bf-9f07d7c41ce8",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.utbildninger--program-meta_studieort",
+      "targets": [],
+      "value": "Studieort\\nMalmö, Örebro"
+    }, {
+      "id": "cc6d804a-08b2-411d-819c-3010770272f3",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.utbildninger--program-meta_duration",
+      "targets": [
+        ["css=.utbildninger--program-meta_duration", "css:finder"],
+        ["xpath=//div[@id='page']/div[3]/div[4]/div/div/div/div[2]/div[2]/div/div/div/p[4]", "xpath:idRelative"],
+        ["xpath=//p[4]", "xpath:position"]
+      ],
+      "value": "Omfattning\\n1,5 år (Örebro)\\n2 år (Malmö)"
+    }]
+  }, {
+    "id": "49f9e36a-d133-4c51-83e5-06ba17d04f30",
+    "name": "Test 2",
+    "commands": [{
+      "id": "f73198f5-74b9-4d6e-995c-17bd2dc60cbb",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "73e7f038-4384-4bb3-bc6d-45404e51f73f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8733f81d-2f67-4e02-b9a1-8355f86dc8b8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fal:nth-child(2)",
+      "targets": [
+        ["css=.fal:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='wrapper-navbar']/div[2]/div[2]/div/a/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3411e045-741c-4fcc-bfb7-97c7fa6fc574",
+      "comment": "",
+      "command": "click",
+      "target": "id=s",
+      "targets": [
+        ["id=s", "id"],
+        ["name=s", "name"],
+        ["css=#s", "css:finder"],
+        ["xpath=//input[@id='s']", "xpath:attributes"],
+        ["xpath=//form[@id='searchform']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3a05088-8c5d-4b3c-b390-6e87494acc3e",
+      "comment": "",
+      "command": "type",
+      "target": "id=s",
+      "targets": [
+        ["id=s", "id"],
+        ["name=s", "name"],
+        ["css=#s", "css:finder"],
+        ["xpath=//input[@id='s']", "xpath:attributes"],
+        ["xpath=//form[@id='searchform']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Malmö"
+    }, {
+      "id": "fdfa5bb9-e98a-46c3-b98f-51e236a8d06d",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=s",
+      "targets": [
+        ["id=s", "id"],
+        ["name=s", "name"],
+        ["css=#s", "css:finder"],
+        ["xpath=//input[@id='s']", "xpath:attributes"],
+        ["xpath=//form[@id='searchform']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "b9fd154e-f36d-47e5-98d9-81fe8fc5115f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Malmö",
+      "targets": [
+        ["linkText=Malmö", "linkText"],
+        ["css=#post-1039 .entry-title > .site__text-color", "css:finder"],
+        ["xpath=//a[contains(text(),'Malmö')]", "xpath:link"],
+        ["xpath=//article[@id='post-1039']/header/h2/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://ecutbildning.se/studieorter/malmo/')]", "xpath:href"],
+        ["xpath=//h2/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Malmö')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "68470e9d-3f21-4e91-a389-5df2ff482e58",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.col-12:nth-child(2) > .mb-0:nth-child(2)",
+      "targets": [
+        ["css=.col-12:nth-child(2) > .mb-0:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='page']/div[3]/section/div[11]/div/div/article/div[2]/div[2]/p", "xpath:idRelative"],
+        ["xpath=//div[2]/p", "xpath:position"]
+      ],
+      "value": "Östra Kanalgatan 5"
+    }, {
+      "id": "78819ecc-e0d4-4634-87b1-a7bd6db47510",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "xpath=//h3[contains(.,'Mjukvarutestare')]",
+      "targets": [
+        ["css=.ams_utbildninger--entry:nth-child(3) .ams_utbildninger--title", "css:finder"],
+        ["xpath=//div[@id='page']/div[5]/div/div[3]/a/div/div/div/h3", "xpath:idRelative"],
+        ["xpath=//div[3]/a/div/div/div/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Mjukvarutestare')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5a9515e3-f3cc-434f-a8e9-dc72b3dc76b0",
+    "name": "Test 3",
+    "commands": [{
+      "id": "bf70ec97-4bb0-4d47-9a1e-62481fa60e63",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "218f9452-65e4-4146-9bd4-4a42d7c0d322",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1426b9c1-02a4-41e6-aa23-48a0f08727f4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.card:nth-child(1) .ams_article_module--title",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "45b734cb-913c-471f-ba9c-75f116a82680",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.card:nth-child(1) .ams_article_module--title",
+      "targets": [
+        ["css=.card:nth-child(1) .ams_article_module--title", "css:finder"],
+        ["xpath=//div[@id='page']/div[2]/div[4]/div/div/div[6]/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//a/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Ansökan är öppen')]", "xpath:innerText"]
+      ],
+      "value": "nyhet_art_rubrik"
+    }, {
+      "id": "17cd21bd-484e-409c-b0e3-092578f4a7a6",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.card:nth-child(1) .ams_article_module--title",
+      "targets": [],
+      "value": "Ansökan är öppen"
+    }, {
+      "id": "6bba0635-40b2-4214-a48d-59d87db84236",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card:nth-child(1) .ams_article_module__body",
+      "targets": [
+        ["css=.card:nth-child(1) .ams_article_module__body", "css:finder"],
+        ["xpath=//div[@id='page']/div[2]/div[4]/div/div/div[6]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "140875cb-5f6c-410f-ae08-1228d33c22dc",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.site__h-tag-1",
+      "targets": [],
+      "value": "artikel_rubrik"
+    }, {
+      "id": "1a038aad-6fab-409b-84f5-f18251a0d95c",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "//*[@id=\"page\" and contains(.,'Ansökan är öppen')]/div[3]/div[1]/div/div/div/div/div[1]/h1",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "2a921398-0743-4987-8aff-a3043634905e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c856c77b-b113-4105-b15d-394c88a6365f"]
+  }],
+  "urls": ["https://ecutbildning.se/"],
+  "plugins": []
+}
